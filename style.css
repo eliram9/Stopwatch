@@ -1,0 +1,176 @@
+body {
+    background: url(assets/sport-1201014_1920.jpg) center center fixed;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+#header {
+    font-size: 4vw;
+    text-align: center;
+    color: #704718;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+}
+
+#lap {
+    text-align: right;
+    font-size: 3vw;
+    color: #704718;
+    margin: 0 0 0 85%;
+    display: inline-block;
+}
+
+#time {
+    font-size: 6vw;
+    color: #704718;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    margin: 0 34%;
+}
+
+/* Buttons */
+#leftButtons {
+    margin-left: 39.5%;
+}
+
+#rightButtons {
+    margin-left: 5%;
+}
+
+#controls {
+    margin: 0 0% 50px 0%;
+}
+
+.control {
+    color: #fbfcd1;
+    opacity: .7;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    background-color: #505050;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 35% 0;
+    cursor: pointer;
+    border: 1.5px solid #c8ca54;
+    font-family: 'Orbitron', sans-serif;
+}
+.control:active {
+    background-color: black;
+    padding: 31% 0;
+    border: 4px solid #c8ca54;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* only for reset button */
+#resetButton {
+    background-color: #e76a6a;
+    color: black;
+    border: 1.5px solid #2c2c2c;
+    font-size: 1.5vw;
+    opacity: .7;
+    font-weight: bolder!important;
+}
+#resetButton:active {
+    padding: 31% 0;
+    opacity: .8;
+    border: 4px solid #2c2c2c;
+}
+
+
+/* laps */
+#laps{
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.LapTimeDisplay {
+    margin: 15px 40px 15px 40px; 
+    height: 2rem;
+    color: #704718;
+    border : 1.5px solid #704718;
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.LapTimeTitle {
+    padding: 3px 0 3px 0;
+    margin-left: 2%;
+    float: left;
+}
+
+.LapTime {
+    margin-right: 2%;
+    padding: 3px 0 3px 0;
+    float: right;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: #704718;
+    background-color: #F0F0F0;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+/* media queries for common device breakpoints */
+/* Smartphones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #header {
+        font-size: 25px;
+        margin-top: 15%
+    } 
+
+    #lap {
+        font-size: 20px;
+        margin: 2% 0 2% 73%;
+    }
+
+    #time {
+        font-size: 35px;;
+        color: #704718;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bolder;
+        margin: 5% 22%;
+        
+    }
+
+    .control {
+        font-size: 3.2vw;
+        height: 19vw;
+        width: 19vw;
+        border-radius: 100%;
+        text-align: center;
+        padding: 30% 0;
+        border: 3.5px solid #c8ca54;
+    }
+    .control:active {
+        padding: 31% 0;
+        background-color: black;
+    }
+
+    #leftButtons {
+        margin-left: 27%;
+    }
+    
+    #rightButtons {
+        margin-left: 6%;
+    }
+
+    /* only for reset button */
+    #resetButton {
+        border: 3.5px solid #2c2c2c;
+        font-size: 3.2vw;
+        opacity: .7;
+        font-weight: bolder!important;
+    }
+    #resetButton:active {
+        opacity: .9;
+    }
+}
