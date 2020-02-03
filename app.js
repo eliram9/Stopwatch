@@ -1,3 +1,7 @@
+// Future features ->
+// to display lap time (after the user clicked) on the side clock
+// then side clock - main clock =  real time lap!
+
 $(function() {
     // Main Variables
     var mode = 0;
