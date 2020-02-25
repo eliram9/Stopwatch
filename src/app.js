@@ -18,7 +18,7 @@ $(function() {
     hideshowButtons("#startButton", "#lapButton");
 
     // Click on the start button
-    $("#startButton").click(function() {
+    $("#startButton").click(() => {
         mode = 1;
         hideshowButtons("#stopButton", "#lapButton");
         startAction();

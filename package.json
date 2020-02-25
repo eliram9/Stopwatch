@@ -1,0 +1,24 @@
+{
+  "name": "stopwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d js-babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliram9/Stopwatch.git"
+  },
+  "author": "eliram9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliram9/Stopwatch/issues"
+  },
+  "homepage": "https://github.com/eliram9/Stopwatch#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
