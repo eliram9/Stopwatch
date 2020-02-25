@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/eliram9/Stopwatch#readme",
   "devDependencies": {
+    "braces": ">=2.3.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
   }
